@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.DetailActivity">
+
+
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:id="@+id/rlImage"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <com.git.gitusers.util.TouchImageView
+            android:id="@+id/imgDisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="No Name"
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="No Type"
+        android:id="@+id/tvType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnDeleteUser"
+        android:text="Delete User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
