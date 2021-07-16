@@ -14,6 +14,7 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
+        //THIS UPDATE IS FROM STUDIO TO GIT ON 160721
 
         Handler().postDelayed(
             {
