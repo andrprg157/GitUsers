@@ -14,8 +14,8 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-        //THIS UPDATE IS FROM STUDIO TO GIT ON 160721
-        //This update from studio to git on 160721 by sagar
+        //THIS UPDATE IS FROM STUDIO TO GIT ON 160721T
+        //this is  from UAT BRANCH FROM SHIV
         Handler().postDelayed(
             {
                 val i = Intent(this, MainActivity::class.java)
